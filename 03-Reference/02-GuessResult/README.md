@@ -3,5 +3,5 @@
 ```js
 const user = { name: 'Jack', role: 'ADMIN' };
 const admin = { name: 'Jack', role: 'ADMIN' };
-console.log(user === admin); // *
+console.log(user === admin); // * false เพราะอยู่คนละ address memory 
 ```
