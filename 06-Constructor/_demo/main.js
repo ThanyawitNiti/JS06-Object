@@ -1,6 +1,6 @@
 // Function ที่เอาไว้ สร้าง OBJ 
 // New keyword เสมอ
-// Function ขึ้นด้วยตัสใหญ่ PPt หน้า 86  Js06obj
+// Function ขึ้นด้วยตัวใหญ่ PPt หน้า 86  Js06obj
 const log = console.log;
 log('Constrctor Function')
 
@@ -16,7 +16,7 @@ const dev1 ={
 
 //Obj creator == Constrctor Function
 // อยากใส่ชื่อให้รีับเป็น param
-function Developer (name,age) { // ต้องขึ้นด้วยตัวใหญ่ 
+function Developer(name,age) { // ต้องขึ้นด้วยตัวใหญ่ 
     // กำหนดให้ this = {} obj ว่างเปล่า
     this.name = name; //{name:name} เอา obj this property name มา assign ค่า 
     this.age = age;// เพิ่ม key age 

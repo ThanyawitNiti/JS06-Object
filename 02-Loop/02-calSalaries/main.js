@@ -9,23 +9,22 @@ let salaries = {
   Pete: 130
 };
 
+
 function isEmptyObj (obj) {
 
     let isEmpty =true ;
 
     for (let key in obj) {
-        isEmpty = false; // ถ้าหลุดมารัน หนึ่งตัวเป็น false 
+        isEmpty = false; 
     }
 
     return isEmpty;
 }
 
-//check Empty
-// input obj 
-//return =>number
+
 function calSalaries (obj) {
 
-            // Validate => แยก service 
+            
             if (isEmptyObj (obj) ) return 0 ;
        
             // Calculate
@@ -33,7 +32,7 @@ function calSalaries (obj) {
             for(let key in obj) {
                 // <obj>.<key>
                 // <obj>[key]
-                console.log(obj[key]); // ลองใส่ age
+                console.log(obj[key]); // 
                 sum += obj[key];
                 // ทุกๆครั้งที่วนจะเอาค่ามาทบ sum ให้เสมอ
             }
